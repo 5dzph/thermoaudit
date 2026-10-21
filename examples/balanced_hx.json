@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "name": "Synthetic counterflow heat exchanger",
+  "provenance": "Hand-constructed constant-cp teaching example; not hydrogen property data or a converged plant simulation.",
+  "streams": [
+    {
+      "id": "hot_in",
+      "mass_kg_s": 2,
+      "temperature_k": 120,
+      "enthalpy_kj_kg": 120
+    },
+    {
+      "id": "hot_out",
+      "mass_kg_s": 2,
+      "temperature_k": 80,
+      "enthalpy_kj_kg": 80
+    },
+    {
+      "id": "cold_in",
+      "mass_kg_s": 1,
+      "temperature_k": 40,
+      "enthalpy_kj_kg": 80
+    },
+    {
+      "id": "cold_out",
+      "mass_kg_s": 1,
+      "temperature_k": 80,
+      "enthalpy_kj_kg": 160
+    }
+  ],
+  "units": [
+    {
+      "id": "HX-DEMO",
+      "kind": "counterflow_hx",
+      "inlets": [
+        "hot_in",
+        "cold_in"
+      ],
+      "outlets": [
+        "hot_out",
+        "cold_out"
+      ],
+      "heat_kw": 0,
+      "shaft_work_out_kw": 0,
+      "hot_in": "hot_in",
+      "hot_out": "hot_out",
+      "cold_in": "cold_in",
+      "cold_out": "cold_out",
+      "min_approach_k": 5
+    }
+  ],
+  "performance": {
+    "net_power_kw": 3600,
+    "product_stream": "hot_out"
+  }
+}

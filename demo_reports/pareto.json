@@ -1,0 +1,21 @@
+{
+  "kind": "expected_fixture_summary",
+  "provenance": "Expected screening results for synthetic candidates.csv; not a fresh Python execution.",
+  "pareto_ids": [
+    "A",
+    "B",
+    "C",
+    "F"
+  ],
+  "dominated_ids": [
+    "D"
+  ],
+  "excluded_ids": [
+    "E"
+  ],
+  "equal_weight_compromise": "F",
+  "limitations": [
+    "Feasibility is supplied by the example CSV.",
+    "This selects a supplied point and does not optimize a process."
+  ]
+}

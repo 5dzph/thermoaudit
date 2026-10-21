@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "thermoaudit"
+version = "0.1.0"
+description = "Transparent steady-state process data checks and Pareto candidate screening"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+keywords = ["thermodynamics", "energy", "process-simulation", "pareto", "validation"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering"]
+
+[project.scripts]
+thermoaudit = "thermoaudit.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/5dzph/thermoaudit"
+Issues = "https://github.com/5dzph/thermoaudit/issues"
+
+[tool.setuptools]
+packages = ["thermoaudit"]

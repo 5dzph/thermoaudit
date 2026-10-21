@@ -1,0 +1,7 @@
+id,sec_kwh_kg,exergy_efficiency,capex_usd,feasible
+A,8,0.42,10000000,true
+B,7,0.48,12000000,true
+C,9,0.38,8000000,true
+D,9,0.40,11000000,true
+E,6,0.60,6000000,false
+F,7.5,0.46,11000000,true

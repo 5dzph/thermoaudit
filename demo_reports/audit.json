@@ -1,0 +1,14 @@
+{
+  "kind": "expected_fixture_summary",
+  "provenance": "Hand-calculated expected results for synthetic balanced_hx.json; not a fresh Python execution.",
+  "mass_residual_kg_s": 0,
+  "energy_residual_kw": 0,
+  "inlet_enthalpy_flow_kw": 320,
+  "outlet_enthalpy_flow_kw": 320,
+  "min_terminal_approach_k": 40,
+  "specific_energy_kwh_kg": 0.5,
+  "limitations": [
+    "Terminal differences do not establish internal pinch feasibility.",
+    "Supplied 3600 kW is arbitrary whole-system power, not derived from this HX."
+  ]
+}
